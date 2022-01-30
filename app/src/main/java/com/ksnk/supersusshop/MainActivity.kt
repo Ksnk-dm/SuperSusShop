@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         shopWebView?.settings?.allowContentAccess = true
         shopWebView?.settings?.domStorageEnabled = true
         shopWebView?.settings?.javaScriptCanOpenWindowsAutomatically = true
-        shopWebView?.webViewClient = ShopWebViewClient()
+        shopWebView?.webViewClient = ShopWebViewClient(this)
         shopWebView?.loadUrl(urlLoad)
     }
 }
