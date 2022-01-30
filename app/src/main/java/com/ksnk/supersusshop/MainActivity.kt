@@ -10,7 +10,7 @@ import com.google.android.gms.ads.AdView
 
 class MainActivity : AppCompatActivity() {
     private var shopWebView: WebView? = null
-    private val urlGo = "https://www.ukr.net/"
+    private val urlLoad = "https://www.ukr.net/"
     lateinit var mAdView: AdView
 
 
@@ -45,6 +45,6 @@ class MainActivity : AppCompatActivity() {
         shopWebView?.settings?.domStorageEnabled = true
         shopWebView?.settings?.javaScriptCanOpenWindowsAutomatically = true
         shopWebView?.webViewClient = ShopWebViewClient()
-        shopWebView?.loadUrl(urlGo)
+        shopWebView?.loadUrl(urlLoad)
     }
 }
