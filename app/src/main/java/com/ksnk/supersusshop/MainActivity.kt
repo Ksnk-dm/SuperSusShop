@@ -10,7 +10,7 @@ import com.google.android.gms.ads.AdView
 
 class MainActivity : AppCompatActivity() {
     private var shopWebView: WebView? = null
-    private val urlLoad = "https://www.ukr.net/"
+    private val urlLoad = "https://supersus.shop/"
     lateinit var mAdView: AdView
 
 
