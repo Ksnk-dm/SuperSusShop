@@ -25,8 +25,6 @@ An example of a simple application developed on WebView. Implemented the ability
 
 ## Libraries and tools used in the project
 
-* [Design Support Library](https://developer.android.com/jetpack/androidx)
-The Design package provides APIs to support adding material design components and patterns to your apps.
 * [WebView](https://developer.android.com/reference/android/webkit/WebView)
 WebView objects allow you to display web content as part of your activity layout.
 * [Admob](https://developers.google.com/admob/android/quick-start)
