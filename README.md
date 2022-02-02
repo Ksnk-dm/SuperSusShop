@@ -1,6 +1,6 @@
 <img alt="Icon" src="app/src/main/res/mipmap-xxhdpi/ic_launcher.png?raw=true" align="left" hspace="1" vspace="1">
 
-# Super Sus Shop
+# Super Sus Shop Simple WebView App
 
 > Branded MERCH from Super Susa
 
